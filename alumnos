@@ -1,0 +1,17 @@
+CREATE TABLE alumnos(
+nro_legajo_a int,
+apenomb nchar(30),
+nro_doc int,
+direccion nchar(50),
+email nchar(20),
+telefono nchar(20),
+cod_doc nchar(5),
+sexo nchar(1),
+fecnac datetime,
+est_civil nchar(10)
+);
+
+INSERT INTO alumnos (nro_legajo_a, apenomb, nro_doc, telefono, cod_doc, sexo, fecnac, est_civil)
+values (9,'Toledo Camila',26169789, '03464445789','TD005','S','2002/06/27','SOLTERA');
+
+select * from alumnos
